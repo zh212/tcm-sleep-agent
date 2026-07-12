@@ -1,0 +1,29 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+.venv.*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Logs and local tooling
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated local knowledge indexes
+tcm_sleep_agent/data/formulas.db
+tcm_sleep_agent/data/vector_store/
+
+# Raw source media duplicated under frontend/public/images
+/素材/
